@@ -17,5 +17,5 @@ const myObject =  {
 }
  let isInstance = myObject instanceof Object
 console.log('is Instance ', isInstance);
-
+//Ahora no da error 
 console.log(myObject.username);
