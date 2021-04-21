@@ -1,4 +1,11 @@
 export {}
+enum PhotoOrientation {
+  Landscape,
+  Portrait,
+  Square,
+  Panorama
+}
+
 class Picture {
   //Propiedades
   #id: number;
